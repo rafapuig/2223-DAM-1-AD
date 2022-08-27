@@ -5,6 +5,14 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo", "HolaMundo\HolaMundo.csproj", "{3B07F983-6ED7-4E06-AD81-9B8DDC1B5A6D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iniciacion", "Iniciacion", "{9658BD70-7EB3-4471-8972-7DD86E3B170D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libro Programcion", "Libro Programcion", "{2E34B4CD-E0A8-40C7-9C87-0C1E5E55449E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "U03 - Iniciacion", "U03 - Iniciacion", "{20E65FD3-5AE7-4555-B95D-5207094C9843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimerPrograma", "Primer Programa\PrimerPrograma.csproj", "{2CC3E84B-8638-4094-8BF3-8F5F9B4F9295}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,18 @@ Global
 		{3B07F983-6ED7-4E06-AD81-9B8DDC1B5A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B07F983-6ED7-4E06-AD81-9B8DDC1B5A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B07F983-6ED7-4E06-AD81-9B8DDC1B5A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC3E84B-8638-4094-8BF3-8F5F9B4F9295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC3E84B-8638-4094-8BF3-8F5F9B4F9295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC3E84B-8638-4094-8BF3-8F5F9B4F9295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC3E84B-8638-4094-8BF3-8F5F9B4F9295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E34B4CD-E0A8-40C7-9C87-0C1E5E55449E} = {9658BD70-7EB3-4471-8972-7DD86E3B170D}
+		{20E65FD3-5AE7-4555-B95D-5207094C9843} = {2E34B4CD-E0A8-40C7-9C87-0C1E5E55449E}
+		{2CC3E84B-8638-4094-8BF3-8F5F9B4F9295} = {20E65FD3-5AE7-4555-B95D-5207094C9843}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A554F28-BBBC-4F9C-85DB-1601388339E7}
